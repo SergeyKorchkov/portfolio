@@ -70,20 +70,20 @@ html {
   align-items: center;
   flex-direction: column;
 }
-.skills-title  {
+.skills-title {
   text-align: center;
-  font-family: 'Gilroy-Bold';
-font-size: 34px;
-color: #070707;
-margin-top: 91px;
-margin-bottom: 70px;
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  color: #070707;
+  margin-top: 91px;
+  margin-bottom: 70px;
 }
 .skills-text {
   text-align: center;
-  font-family: 'Gilroy-Medium';
-font-size: 18px;
-color: #070707;
-margin-bottom: 83px;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  color: #070707;
+  margin-bottom: 83px;
 }
 .skills-img {
   display: flex;
@@ -92,15 +92,15 @@ margin-bottom: 83px;
 }
 /* portfolio-section */
 .portfolio {
-  background: #F6F6F6;
+  background: #f6f6f6;
   padding: 100px 0;
 }
 .portfolio-link {
-  font-family: 'Gilroy-Medium';
-font-size: 18px;
-text-align: center;
-text-decoration-line: underline;
-color: #070707;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
 }
 .portfolio-link-wrp {
   display: flex;
@@ -109,4 +109,42 @@ color: #070707;
 }
 .img {
   width: 100%;
+}
+.contacts-text {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  text-align: center;
+  color: #070707;
+}
+.link-message {
+  background: #070707;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 5px 20px;
+  width: 170px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.contacts-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.icons {
+  display: flex;
+}
+.icons-link {
+  margin-right: 60px;
+}
+.contacts-subtitle {
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+  margin-top: 45px;
+  margin-bottom: 120px;
 }
