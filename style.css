@@ -8,11 +8,14 @@ html {
   margin: 0 auto;
 }
 .header-link {
-  font-family: "Gilroy-Bold";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #828282;
   text-decoration: none;
   cursor: pointer;
+}
+.section {
+  padding: 0 20px;
 }
 .header-link:hover {
   color: #070707;
@@ -33,20 +36,20 @@ html {
   margin-bottom: 50px;
 }
 .home-title {
-  font-family: "Gilroy-Bold";
+  font-family: "Roboto", sans-serif;
   font-size: 48px;
   color: #070707;
 
   max-width: 100px;
 }
 .home-subtitle {
-  font-family: "Gilroy-Medium";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   max-width: 150px;
   color: #070707;
 }
 .title {
-  font-family: "Gilroy-Bold";
+  font-family: "Roboto", sans-serif;
   font-size: 34px;
   text-align: center;
   color: #070707;
@@ -59,7 +62,7 @@ html {
   padding: 100px 0;
 }
 .about-text {
-  font-family: "Gilroy-Medium";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
   color: #070707;
@@ -72,7 +75,7 @@ html {
 }
 .skills-title {
   text-align: center;
-  font-family: "Gilroy-Bold";
+  font-family: "Roboto", sans-serif;
   font-size: 34px;
   color: #070707;
   margin-top: 91px;
@@ -80,7 +83,7 @@ html {
 }
 .skills-text {
   text-align: center;
-  font-family: "Gilroy-Medium";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #070707;
   margin-bottom: 83px;
@@ -96,7 +99,7 @@ html {
   padding: 100px 0;
 }
 .portfolio-link {
-  font-family: "Gilroy-Medium";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
   text-decoration-line: underline;
@@ -111,14 +114,14 @@ html {
   width: 100%;
 }
 .contacts-text {
-  font-family: "Gilroy-Medium";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-align: center;
   color: #070707;
 }
 .link-message {
   background: #070707;
-  font-family: "Gilroy-Bold";
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   color: #ffffff;
   text-decoration: none;
@@ -138,13 +141,38 @@ html {
   display: flex;
 }
 .icons-link {
-  margin-right: 60px;
+  margin-right: 10px;
+}
+.icons-link :last-of-type {
+  margin-right: 0;
 }
 .contacts-subtitle {
-  font-family: "Gilroy-Medium";
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   text-align: center;
   color: #828282;
   margin-top: 45px;
   margin-bottom: 120px;
+}
+
+@media screen and (max-width: 800px) {
+  .skills-img {
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+    
+  }
+  .home-wrapper {
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .header-link {
+    display: none;
+  }
+.skills-icon {
+  margin-bottom: 100px;
+}
 }

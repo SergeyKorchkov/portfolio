@@ -8,17 +8,20 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./img/D-blank.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <section class="home">
+    <section id="home" class="home section">
         <div class="container">
             <header class="header">
-                <a class="header-link" href="#">Home</a>
-                <a class="header-link" href="#">About me</a>
-                <a class="header-link" href="#">Skills</a>
-                <a class="header-link" href="#">Portfolio</a>
-                <a class="header-link" href="#">Contacts</a>
+                <a class="header-link" href="#home">Home</a>
+                <a class="header-link" href="#about">About me</a>
+                <a class="header-link" href="#skills">Skills</a>
+                <a class="header-link" href="#portfolio">Portfolio</a>
+                <a class="header-link" href="#contacts">Contacts</a>
             </header>
             <div class="line">
 
@@ -36,7 +39,7 @@
             <img class="img" src="./img/him.jpg" alt="">
         </div>
     </section>
-    <section class="about">
+    <section id="about" class="about section">
         <div class="container">
             <h2 class="title">
                 About me
@@ -54,7 +57,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="skills" class="section">
         <div class="container">
             <h2 class="title">
                 Skills
@@ -63,14 +66,14 @@
                 I work in such programs as
             </p>
             <div class="skills-img">
-                <img src="./img/photoshop.svg" alt="">
-                <img src="./img/illustrator.svg" alt="">
-                <img src="./img/affter-effects.svg" alt="">
-                <img src="./img/figma.svg" alt="">
+                <img class="skills-icon" src="./img/photoshop.svg" alt="">
+                <img  class="skills-icon" src="./img/illustrator.svg" alt="">
+                <img  class="skills-icon" src="./img/affter-effects.svg" alt="">
+                <img  class="skills-icon" src="./img/figma.svg" alt="">
             </div>
         </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio section">
         <div class="container">
             <h2 class="title">
                 Portfolio
@@ -89,7 +92,7 @@
             </div>
         </div>
     </section>
-    <section class="contacts">
+    <section id="contacts" class="contacts section">
         <div class="container">
             <div class="contacts-wrapper">
                 <h2 class="title">
@@ -107,9 +110,12 @@
                     <a class="icons-link" target="_blank" href="https://www.linkedin.com/">
                         <img src="./img/in.svg" alt="">
                     </a>
-                    <a class="icons-link" href=""><img src="./img/ins.svg" alt=""></a>
-                    <a class="icons-link" href=""> <img src="./img/behance.svg" alt=""></a>
-                    <a class="icons-link" href=""> <img src="./img/dribble.svg" alt=""></a>
+                    <a class="icons-link" target="_blank" href="https://www.instagram.com/"><img src="./img/ins.svg"
+                            alt=""></a>
+                    <a class="icons-link" target="_blank" href="https://www.behance.net/"> <img src="./img/behance.svg"
+                            alt=""></a>
+                    <a class="icons-link" target="_blank" href="https://dribbble.com/"> <img src="./img/dribble.svg"
+                            alt=""></a>
                 </div>
                 <p class="contacts-subtitle">
                     Like me on
