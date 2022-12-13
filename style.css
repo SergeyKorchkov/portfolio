@@ -154,6 +154,9 @@ html {
   margin-top: 45px;
   margin-bottom: 120px;
 }
+.mob-img {
+  display: none;
+}
 
 @media screen and (max-width: 800px) {
   .skills-img {
@@ -172,5 +175,15 @@ html {
   }
   .skills-icon {
     margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .mob-img {
+  display: block;
+  
+  }
+  .desk-img {
+    display: none;
   }
 }
