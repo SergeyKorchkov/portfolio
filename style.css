@@ -15,7 +15,8 @@ html {
   cursor: pointer;
 }
 .section {
-  padding: 0 20px;
+  padding: 0 29px;
+
 }
 .header-link:hover {
   color: #070707;
