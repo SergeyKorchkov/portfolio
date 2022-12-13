@@ -160,19 +160,17 @@ html {
     display: flex;
     margin-bottom: 100px;
     flex-direction: column;
-    
   }
   .home-wrapper {
     display: flex;
     margin-bottom: 50px;
     flex-direction: column;
     align-items: flex-start;
-    
   }
   .header-link {
     display: none;
   }
-.skills-icon {
-  margin-bottom: 100px;
-}
+  .skills-icon {
+    margin-bottom: 100px;
+  }
 }
